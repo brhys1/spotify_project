@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Install logs
+pip-log.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# MyPy type checking cache
+.mypy_cache/
+
+# Pytest and coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Cython and C extensions
+*.c
+*.so
+*.pyd
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.iml
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+*.sql
+
+# Temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Ignore local environment settings
+.envrc
+.env.local
