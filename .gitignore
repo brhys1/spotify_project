@@ -53,3 +53,4 @@ htmlcov/
 # Ignore local environment settings
 .envrc
 .env.local
+.env
