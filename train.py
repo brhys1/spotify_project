@@ -18,9 +18,9 @@ data = data.dropna(subset=['track_popularity'])
 
 data['lyrics'] = data['lyrics'].fillna('')
 # we will use these variables will predict track_popularity
-numerical_features = ['track_popularity', 'energy', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'duration_ms']
+numerical_features = ['danceability', 'energy', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'duration_ms']
 text_feature = 'lyrics'
-target = 'danceability'
+target = 'track_popularity'
 encode_artist = 'track_artist'
 
 text_pipeline = Pipeline([
